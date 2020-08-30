@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { DatePipe } from './date.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HttpClientModule }from '@angular/common/http';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
