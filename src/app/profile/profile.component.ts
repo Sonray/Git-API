@@ -8,6 +8,10 @@ import { UserProfileService }from '../user-profile.service';
 })
 export class ProfileComponent implements OnInit {
 
+  profile:any;
+  repos:any;
+  username:string;
+  
   constructor() { }
 
   ngOnInit(): void {
