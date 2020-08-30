@@ -8,7 +8,7 @@ import { UserProfileService }from '../user-profile.service';
 })
 export class ProfileComponent implements OnInit {
 
-  profile:any;
+  profil:any;
   repos:any;
   username:string;
 
@@ -16,7 +16,7 @@ export class ProfileComponent implements OnInit {
     
     this.userProfile.updateProfile(this.username);
     this.userProfile.getUserInfo().subscribe(profile => {
-      this.profile = profile;
+      this.profil = profile;
     });
   
     this.userProfile.getUserInfo().subscribe(repos => {
@@ -26,7 +26,7 @@ export class ProfileComponent implements OnInit {
   findProfile(){
     this.userProfile.updateProfile(this.username);
     this.userProfile.getUserInfo().subscribe(profile => {
-      this.profile = profile;
+      this.profil = profile;
     });
   
     this.userProfile.getRepo().subscribe(repos => {
@@ -36,8 +36,8 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.userProfile.updateProfile('Sonray');
-    this.userProfile.getUserInfo().subscribe(profile => this.profile = profile);
+    this.userProfile.updateProfile('');
+    this.userProfile.getUserInfo().subscribe(profile => this.profil = profile);
     this.userProfile.getRepo().subscribe(repos =>  this.repos = repos);
     
   }

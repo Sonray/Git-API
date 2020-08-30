@@ -11,7 +11,7 @@ export class UserProfileService {
   private client_secret ="d1c3716ce71eeab26a8f8b5aa9f090638b129cce";
   
   constructor(private http: HttpClient) { 
-    this.username = "Sonray";
+    this.username = "";
   }
 
   getUserInfo(){
