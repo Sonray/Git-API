@@ -1,27 +1,51 @@
-# GitAPI
+# David Okwacha 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+# Git-API app
 
-## Development server
+## Description
+Git-API is a website application that allows you to see what your friends are sharing on git-hub. It allows you to see their followers, the number of their repositories and also to visit their friends repositories.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### link to site
+https://sonray.github.io/Git-API/
 
-## Code scaffolding
+## About Author
+Author's name is David Okwacha
+I have worked on some major projects in web development which include;
+1 . Fitness-hub
+2 . Group DAlex
+3 . Birth-Break
+4 . Delani-studio
+5 . Quotes app
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation Requirements
+Set up a web browser and you are good to go. Launch the website, enter your name, email and 
+message to inform the company
 
-## Build
+## BDD
+Git-API app is an API BDD that allows you to search and see what your friends are sharing on git-hub.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Technologies Used
+#### 1. HTML
+#### 2. CSS
+#### 4. Bootsrap
+#### 5. typescript
+#### 5. angular
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and contact details
+In case you run into any issues or have questions, ideas or concerns. Contact David Okwacha
 
-## Running end-to-end tests
+E-mail - davidokwacha@gmail.com
+Facebook - David Okwacha
+Youtube - David Okwacha
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## License
+MIT License
 
-## Further help
+Copyright (c) [2020] [David Okwacha]
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
